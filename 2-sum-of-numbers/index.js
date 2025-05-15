@@ -8,4 +8,5 @@ function sumOfNumbers(str) {
   }
 }
 
-console.log(sumOfNumbers('[1, 2, [3, 4, [5]], 6]'));
+const args = process.argv.slice(2);
+console.log(sumOfNumbers(args[0]));
