@@ -1,0 +1,39 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "categories": {
+    "correctness": "error",
+    "style": "warn"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-var": "error",
+    "prefer-const": "warn",
+    "eqeqeq": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "curly": "error",
+    "no-magic-numbers": "off",
+    "func-style": "off",
+    "filename-case": "off",
+    "yoda": "never"
+
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}

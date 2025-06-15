@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "test",
+    "freq": "daily",
+    "records": [
+      "2025-06-14"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "updated test 2",
+    "freq": "daily",
+    "records": [
+      "2025-06-15",
+      "2025-06-14",
+      "2025-06-16"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "test 3",
+    "freq": "weekly",
+    "records": []
+  }
+]
