@@ -2,7 +2,6 @@ import { create, update, remove, addRecord, findAll } from '../models/index.js'
 
 export function addHabit(name, freq) {
   create({ name, freq });
-  console.log('Habit has been created.');
 }
 
 export function listHabits() {
@@ -17,7 +16,6 @@ export function listHabits() {
 
 export function markDone(id) {
   addRecord(id);
-  console.log('Marked as done.');
 }
 
 export function showStats() {
@@ -44,10 +42,8 @@ export function showStats() {
 
 export function deleteHabit(id) {
   remove(id);
-  console.log('Habit has been deleted.');
 }
 
 export function updateHabit(id, { name, freq }) {
   update(id, { name, freq });
-  console.log('Habit has been updated.');
 }

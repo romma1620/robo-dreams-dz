@@ -26,6 +26,7 @@ export function create({name, freq}) {
   const nextId = db.reduce((max, h) => Math.max(max, h.id), 0) + 1;
   db.push({id: nextId, name, freq, records: []});
   writeDB(db);
+  console.log('Habit has been created.');
 }
 
 export function addRecord(id) {
@@ -44,12 +45,14 @@ export function addRecord(id) {
     habit.records.push(str);
     writeDB(db);
   }
+  console.log('Marked as done.');
 }
 
 export function remove(id) {
   let db = readDB();
   db = db.filter(h => h.id !== id);
   writeDB(db);
+  console.log('Habit has been deleted.');
 }
 
 export function update(id, {name, freq}) {
@@ -59,4 +62,5 @@ export function update(id, {name, freq}) {
   if (name) habit.name = name;
   if (freq) habit.freq = freq;
   writeDB(db);
+  console.log('Habit has been updated.');
 }
