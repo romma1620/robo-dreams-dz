@@ -10,4 +10,3 @@
 - ``docker exec -it 3-docker-kv-1 sh``
 - ``apk update && apk add --no-cache curl``
 - ``curl http://redis:4000/get?key=test``
-- 
