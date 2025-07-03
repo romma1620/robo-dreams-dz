@@ -3,29 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "lint": "npx oxlint",
-    "dev": "nodemon --watch src --ext js --exec \"babel-node 4-express/src/server.js\""
+    "lint": "npx oxlint"
   },
   "dependencies": {
-    "compression": "^1.8.0",
-    "cors": "^2.8.5",
-    "esbuild": "^0.25.5",
-    "express": "^5.1.0",
-    "express-rate-limit": "^7.5.1",
-    "helmet": "^8.1.0",
-    "inversify": "^7.5.4",
-    "inversify-express-utils": "^6.5.0",
-    "nodemon": "^3.1.10",
-    "reflect-metadata": "^0.2.2",
-    "zod": "^3.25.67"
+    "nodemon": "^3.1.10"
   },
   "devDependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/core": "^7.27.7",
-    "@babel/node": "^7.27.1",
-    "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/plugin-proposal-decorators": "^7.27.1",
-    "@babel/preset-env": "^7.27.2",
     "eslint": "^9.28.0",
     "oxlint": "^1.1.0"
   }
