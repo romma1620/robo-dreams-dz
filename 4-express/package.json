@@ -1,9 +1,11 @@
 {
-  "name": "terminal-app",
+  "name": "express",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "lint": "npx oxlint",
+    "build": "node esbuild.config.js",
+    "start": "node dist/server.js",
     "dev": "nodemon --watch src --ext js --exec \"babel-node 4-express/src/server.js\""
   },
   "dependencies": {
