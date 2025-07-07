@@ -7,16 +7,16 @@
     "dev": "nodemon --watch src --ext js --exec \"babel-node 4-express/src/server.js\""
   },
   "dependencies": {
+    "@nestjs/throttler": "^6.4.0",
     "compression": "^1.8.0",
     "cors": "^2.8.5",
     "esbuild": "^0.25.5",
     "express": "^5.1.0",
     "express-rate-limit": "^7.5.1",
     "helmet": "^8.1.0",
-    "inversify": "^7.5.4",
-    "inversify-express-utils": "^6.5.0",
     "nodemon": "^3.1.10",
     "reflect-metadata": "^0.2.2",
+    "uuid": "^11.1.0",
     "zod": "^3.25.67"
   },
   "devDependencies": {
