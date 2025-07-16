@@ -7,6 +7,9 @@
     "dev": "nodemon --watch src --ext js --exec \"babel-node 4-express/src/server.js\""
   },
   "dependencies": {
+    "@nestjs/common": "^11.1.4",
+    "@nestjs/core": "^11.1.4",
+    "@nestjs/platform-express": "^11.1.4",
     "@nestjs/throttler": "^6.4.0",
     "compression": "^1.8.0",
     "cors": "^2.8.5",
@@ -16,6 +19,7 @@
     "helmet": "^8.1.0",
     "nodemon": "^3.1.10",
     "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
     "uuid": "^11.1.0",
     "zod": "^3.25.67"
   },

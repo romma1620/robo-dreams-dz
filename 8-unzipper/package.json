@@ -1,0 +1,33 @@
+{
+  "name": "8-unzipper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.4",
+    "@nestjs/core": "^11.1.4",
+    "@nestjs/platform-express": "^11.1.4",
+    "async-mutex": "^0.5.0",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "sharp": "^0.34.3",
+    "tsx": "^4.20.3",
+    "unzipper": "^0.12.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.7",
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/unzipper": "^0.10.11",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
