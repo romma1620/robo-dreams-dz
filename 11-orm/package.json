@@ -1,0 +1,19 @@
+{
+  "name": "11-orm",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "demo": "node --loader ts-node/esm src/demo.ts"
+  },
+  "dependencies": {
+    "@types/pg": "^8.15.4",
+    "dotenv": "^17.2.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
